@@ -1,0 +1,1882 @@
+Total samples: 469, Train: 328, Val: 70, Test: 71
+Created dataset with 100000 vertical profiles
+Created dataset with 15000 vertical profiles
+Created dataset with 15000 vertical profiles
+Train samples: 100000, Validation samples: 15000
+Model initialized on cuda, total parameters: 43.25M
+Auto-calculated LOSS_WEIGHTS: tensor([0.0158, 0.0404, 0.0183, 1.0000], device='cuda:0')
+
+Epoch 1/200
+  Train Total Loss: 0.003819, Value Loss: 0.003819
+  R² layer mean - uw: 0.3433
+  R² layer mean - vw: 0.2599
+  R² layer mean - tw: 0.3192
+  R² layer mean - qw: -5.7947
+  Val Total Loss: 0.003745, Value Loss: 0.003745
+  Per-channel RMSE: uw=0.8834, vw=0.9457, tw=0.8855, 
+  Saved best model: F:\model\model_save\best_epoch001_val0.003745.pth
+
+Epoch 2/200
+  Train Total Loss: 0.003212, Value Loss: 0.003212
+  R² layer mean - uw: 0.3646
+  R² layer mean - vw: 0.3019
+  R² layer mean - tw: 0.2988
+  R² layer mean - qw: -5.1133
+  Val Total Loss: 0.003862, Value Loss: 0.003862
+  Per-channel RMSE: uw=0.8712, vw=0.9183, tw=0.8985, 
+
+Epoch 3/200
+  Train Total Loss: 0.002950, Value Loss: 0.002950
+  R² layer mean - uw: 0.4791
+  R² layer mean - vw: 0.4014
+  R² layer mean - tw: 0.4354
+  R² layer mean - qw: -2.4267
+  Val Total Loss: 0.003366, Value Loss: 0.003366
+  Per-channel RMSE: uw=0.7870, vw=0.8503, tw=0.8065, 
+  Saved best model: F:\model\model_save\best_epoch003_val0.003366.pth
+
+Epoch 4/200
+  Train Total Loss: 0.002767, Value Loss: 0.002767
+  R² layer mean - uw: 0.5622
+  R² layer mean - vw: 0.4705
+  R² layer mean - tw: 0.5123
+  R² layer mean - qw: -1.7210
+  Val Total Loss: 0.003106, Value Loss: 0.003106
+  Per-channel RMSE: uw=0.7226, vw=0.8021, tw=0.7508, 
+  Saved best model: F:\model\model_save\best_epoch004_val0.003106.pth
+
+Epoch 5/200
+  Train Total Loss: 0.002634, Value Loss: 0.002634
+  R² layer mean - uw: 0.5905
+  R² layer mean - vw: 0.5192
+  R² layer mean - tw: 0.5518
+  R² layer mean - qw: -0.9501
+  Val Total Loss: 0.002975, Value Loss: 0.002975
+  Per-channel RMSE: uw=0.6982, vw=0.7635, tw=0.7190, 
+  Saved best model: F:\model\model_save\best_epoch005_val0.002975.pth
+
+Epoch 6/200
+  Train Total Loss: 0.002537, Value Loss: 0.002537
+  R² layer mean - uw: 0.6053
+  R² layer mean - vw: 0.5368
+  R² layer mean - tw: 0.5872
+  R² layer mean - qw: -0.6495
+  Val Total Loss: 0.002854, Value Loss: 0.002854
+  Per-channel RMSE: uw=0.6834, vw=0.7491, tw=0.6899, 
+  Saved best model: F:\model\model_save\best_epoch006_val0.002854.pth
+
+Epoch 7/200
+  Train Total Loss: 0.002410, Value Loss: 0.002410
+  R² layer mean - uw: 0.6179
+  R² layer mean - vw: 0.5632
+  R² layer mean - tw: 0.6102
+  R² layer mean - qw: -1.1954
+  Val Total Loss: 0.002769, Value Loss: 0.002769
+  Per-channel RMSE: uw=0.6749, vw=0.7268, tw=0.6708, 
+  Saved best model: F:\model\model_save\best_epoch007_val0.002769.pth
+
+Epoch 8/200
+  Train Total Loss: 0.002322, Value Loss: 0.002322
+  R² layer mean - uw: 0.6405
+  R² layer mean - vw: 0.5743
+  R² layer mean - tw: 0.6248
+  R² layer mean - qw: -0.1677
+  Val Total Loss: 0.002705, Value Loss: 0.002705
+  Per-channel RMSE: uw=0.6527, vw=0.7166, tw=0.6577, 
+  Saved best model: F:\model\model_save\best_epoch008_val0.002705.pth
+
+Epoch 9/200
+  Train Total Loss: 0.002245, Value Loss: 0.002245
+  R² layer mean - uw: 0.6355
+  R² layer mean - vw: 0.5839
+  R² layer mean - tw: 0.6106
+  R² layer mean - qw: -0.1840
+  Val Total Loss: 0.002737, Value Loss: 0.002737
+  Per-channel RMSE: uw=0.6584, vw=0.7119, tw=0.6699, 
+
+Epoch 10/200
+  Train Total Loss: 0.002176, Value Loss: 0.002176
+  R² layer mean - uw: 0.6826
+  R² layer mean - vw: 0.6104
+  R² layer mean - tw: 0.6430
+  R² layer mean - qw: -0.5264
+  Val Total Loss: 0.002574, Value Loss: 0.002574
+  Per-channel RMSE: uw=0.6126, vw=0.6852, tw=0.6421, 
+  Saved best model: F:\model\model_save\best_epoch010_val0.002574.pth
+
+Epoch 11/200
+  Train Total Loss: 0.002117, Value Loss: 0.002117
+  R² layer mean - uw: 0.6776
+  R² layer mean - vw: 0.5928
+  R² layer mean - tw: 0.6494
+  R² layer mean - qw: 0.0901
+  Val Total Loss: 0.002525, Value Loss: 0.002525
+  Per-channel RMSE: uw=0.6182, vw=0.7031, tw=0.6364, 
+  Saved best model: F:\model\model_save\best_epoch011_val0.002525.pth
+
+Epoch 12/200
+  Train Total Loss: 0.002043, Value Loss: 0.002043
+  R² layer mean - uw: 0.6849
+  R² layer mean - vw: 0.6266
+  R² layer mean - tw: 0.6797
+  R² layer mean - qw: 0.1987
+  Val Total Loss: 0.002446, Value Loss: 0.002446
+  Per-channel RMSE: uw=0.6104, vw=0.6718, tw=0.6081, 
+  Saved best model: F:\model\model_save\best_epoch012_val0.002446.pth
+
+Epoch 13/200
+  Train Total Loss: 0.001990, Value Loss: 0.001990
+  R² layer mean - uw: 0.7040
+  R² layer mean - vw: 0.6156
+  R² layer mean - tw: 0.6650
+  R² layer mean - qw: 0.2786
+  Val Total Loss: 0.002508, Value Loss: 0.002508
+  Per-channel RMSE: uw=0.5919, vw=0.6829, tw=0.6218, 
+
+Epoch 14/200
+  Train Total Loss: 0.001941, Value Loss: 0.001941
+  R² layer mean - uw: 0.7005
+  R² layer mean - vw: 0.6565
+  R² layer mean - tw: 0.7015
+  R² layer mean - qw: 0.3630
+  Val Total Loss: 0.002335, Value Loss: 0.002335
+  Per-channel RMSE: uw=0.5955, vw=0.6439, tw=0.5870, 
+  Saved best model: F:\model\model_save\best_epoch014_val0.002335.pth
+
+Epoch 15/200
+  Train Total Loss: 0.001893, Value Loss: 0.001893
+  R² layer mean - uw: 0.6436
+  R² layer mean - vw: 0.5999
+  R² layer mean - tw: 0.6186
+  R² layer mean - qw: 0.0411
+  Val Total Loss: 0.002542, Value Loss: 0.002542
+  Per-channel RMSE: uw=0.6496, vw=0.6959, tw=0.6634, 
+
+Epoch 16/200
+  Train Total Loss: 0.001856, Value Loss: 0.001856
+  R² layer mean - uw: 0.7126
+  R² layer mean - vw: 0.6609
+  R² layer mean - tw: 0.7063
+  R² layer mean - qw: 0.3985
+  Val Total Loss: 0.002297, Value Loss: 0.002297
+  Per-channel RMSE: uw=0.5829, vw=0.6405, tw=0.5820, 
+  Saved best model: F:\model\model_save\best_epoch016_val0.002297.pth
+
+Epoch 17/200
+  Train Total Loss: 0.001811, Value Loss: 0.001811
+  R² layer mean - uw: 0.7111
+  R² layer mean - vw: 0.6504
+  R² layer mean - tw: 0.6342
+  R² layer mean - qw: 0.4705
+  Val Total Loss: 0.002514, Value Loss: 0.002514
+  Per-channel RMSE: uw=0.5829, vw=0.6509, tw=0.6515, 
+
+Epoch 18/200
+  Train Total Loss: 0.001756, Value Loss: 0.001756
+  R² layer mean - uw: 0.7569
+  R² layer mean - vw: 0.6995
+  R² layer mean - tw: 0.7430
+  R² layer mean - qw: 0.4937
+  Val Total Loss: 0.002109, Value Loss: 0.002109
+  Per-channel RMSE: uw=0.5352, vw=0.6025, tw=0.5442, 
+  Saved best model: F:\model\model_save\best_epoch018_val0.002109.pth
+
+Epoch 19/200
+  Train Total Loss: 0.001731, Value Loss: 0.001731
+  R² layer mean - uw: 0.7405
+  R² layer mean - vw: 0.6904
+  R² layer mean - tw: 0.7206
+  R² layer mean - qw: 0.4844
+  Val Total Loss: 0.002158, Value Loss: 0.002158
+  Per-channel RMSE: uw=0.5536, vw=0.6107, tw=0.5671, 
+
+Epoch 20/200
+  Train Total Loss: 0.001675, Value Loss: 0.001675
+  R² layer mean - uw: 0.7247
+  R² layer mean - vw: 0.6662
+  R² layer mean - tw: 0.7209
+  R² layer mean - qw: 0.5108
+  Val Total Loss: 0.002210, Value Loss: 0.002210
+  Per-channel RMSE: uw=0.5711, vw=0.6346, tw=0.5676, 
+
+Epoch 21/200
+  Train Total Loss: 0.001652, Value Loss: 0.001652
+  R² layer mean - uw: 0.7569
+  R² layer mean - vw: 0.7050
+  R² layer mean - tw: 0.7361
+  R² layer mean - qw: 0.5289
+  Val Total Loss: 0.002090, Value Loss: 0.002090
+  Per-channel RMSE: uw=0.5362, vw=0.5965, tw=0.5520, 
+  Saved best model: F:\model\model_save\best_epoch021_val0.002090.pth
+
+Epoch 22/200
+  Train Total Loss: 0.001612, Value Loss: 0.001612
+  R² layer mean - uw: 0.7334
+  R² layer mean - vw: 0.7076
+  R² layer mean - tw: 0.7418
+  R² layer mean - qw: 0.5148
+  Val Total Loss: 0.002084, Value Loss: 0.002084
+  Per-channel RMSE: uw=0.5644, vw=0.5945, tw=0.5458, 
+  Saved best model: F:\model\model_save\best_epoch022_val0.002084.pth
+
+Epoch 23/200
+  Train Total Loss: 0.001576, Value Loss: 0.001576
+  R² layer mean - uw: 0.7496
+  R² layer mean - vw: 0.6987
+  R² layer mean - tw: 0.7326
+  R² layer mean - qw: 0.4993
+  Val Total Loss: 0.002139, Value Loss: 0.002139
+  Per-channel RMSE: uw=0.5434, vw=0.6018, tw=0.5549, 
+
+Epoch 24/200
+  Train Total Loss: 0.001553, Value Loss: 0.001553
+  R² layer mean - uw: 0.7622
+  R² layer mean - vw: 0.7037
+  R² layer mean - tw: 0.7603
+  R² layer mean - qw: 0.5529
+  Val Total Loss: 0.002069, Value Loss: 0.002069
+  Per-channel RMSE: uw=0.5308, vw=0.5985, tw=0.5257, 
+  Saved best model: F:\model\model_save\best_epoch024_val0.002069.pth
+
+Epoch 25/200
+  Train Total Loss: 0.001544, Value Loss: 0.001544
+  R² layer mean - uw: 0.7580
+  R² layer mean - vw: 0.7045
+  R² layer mean - tw: 0.7182
+  R² layer mean - qw: 0.3864
+  Val Total Loss: 0.002175, Value Loss: 0.002175
+  Per-channel RMSE: uw=0.5350, vw=0.5956, tw=0.5702, 
+
+Epoch 26/200
+  Train Total Loss: 0.001491, Value Loss: 0.001491
+  R² layer mean - uw: 0.7808
+  R² layer mean - vw: 0.7433
+  R² layer mean - tw: 0.7592
+  R² layer mean - qw: 0.4457
+  Val Total Loss: 0.001949, Value Loss: 0.001949
+  Per-channel RMSE: uw=0.5087, vw=0.5564, tw=0.5267, 
+  Saved best model: F:\model\model_save\best_epoch026_val0.001949.pth
+
+Epoch 27/200
+  Train Total Loss: 0.001471, Value Loss: 0.001471
+  R² layer mean - uw: 0.7805
+  R² layer mean - vw: 0.7381
+  R² layer mean - tw: 0.7745
+  R² layer mean - qw: 0.5138
+  Val Total Loss: 0.001924, Value Loss: 0.001924
+  Per-channel RMSE: uw=0.5090, vw=0.5613, tw=0.5099, 
+  Saved best model: F:\model\model_save\best_epoch027_val0.001924.pth
+
+Epoch 28/200
+  Train Total Loss: 0.001448, Value Loss: 0.001448
+  R² layer mean - uw: 0.7818
+  R² layer mean - vw: 0.7310
+  R² layer mean - tw: 0.7715
+  R² layer mean - qw: 0.5001
+  Val Total Loss: 0.001940, Value Loss: 0.001940
+  Per-channel RMSE: uw=0.5086, vw=0.5704, tw=0.5130, 
+
+Epoch 29/200
+  Train Total Loss: 0.001455, Value Loss: 0.001455
+  R² layer mean - uw: 0.7737
+  R² layer mean - vw: 0.7345
+  R² layer mean - tw: 0.7661
+  R² layer mean - qw: 0.5662
+  Val Total Loss: 0.001946, Value Loss: 0.001946
+  Per-channel RMSE: uw=0.5163, vw=0.5655, tw=0.5192, 
+
+Epoch 30/200
+  Train Total Loss: 0.001411, Value Loss: 0.001411
+  R² layer mean - uw: 0.7675
+  R² layer mean - vw: 0.7261
+  R² layer mean - tw: 0.7643
+  R² layer mean - qw: 0.5682
+  Val Total Loss: 0.001961, Value Loss: 0.001961
+  Per-channel RMSE: uw=0.5241, vw=0.5738, tw=0.5208, 
+
+Epoch 31/200
+  Train Total Loss: 0.001401, Value Loss: 0.001401
+  R² layer mean - uw: 0.7578
+  R² layer mean - vw: 0.7406
+  R² layer mean - tw: 0.7615
+  R² layer mean - qw: 0.5653
+  Val Total Loss: 0.001960, Value Loss: 0.001960
+  Per-channel RMSE: uw=0.5369, vw=0.5577, tw=0.5244, 
+
+Epoch 32/200
+  Train Total Loss: 0.001386, Value Loss: 0.001386
+  R² layer mean - uw: 0.7785
+  R² layer mean - vw: 0.7319
+  R² layer mean - tw: 0.7887
+  R² layer mean - qw: 0.5854
+  Val Total Loss: 0.001917, Value Loss: 0.001917
+  Per-channel RMSE: uw=0.5128, vw=0.5690, tw=0.4936, 
+  Saved best model: F:\model\model_save\best_epoch032_val0.001917.pth
+
+Epoch 33/200
+  Train Total Loss: 0.001362, Value Loss: 0.001362
+  R² layer mean - uw: 0.8009
+  R² layer mean - vw: 0.7474
+  R² layer mean - tw: 0.7822
+  R² layer mean - qw: 0.5600
+  Val Total Loss: 0.001876, Value Loss: 0.001876
+  Per-channel RMSE: uw=0.4849, vw=0.5512, tw=0.5014, 
+  Saved best model: F:\model\model_save\best_epoch033_val0.001876.pth
+
+Epoch 34/200
+  Train Total Loss: 0.001352, Value Loss: 0.001352
+  R² layer mean - uw: 0.7993
+  R² layer mean - vw: 0.7524
+  R² layer mean - tw: 0.7923
+  R² layer mean - qw: 0.5779
+  Val Total Loss: 0.001833, Value Loss: 0.001833
+  Per-channel RMSE: uw=0.4868, vw=0.5455, tw=0.4892, 
+  Saved best model: F:\model\model_save\best_epoch034_val0.001833.pth
+
+Epoch 35/200
+  Train Total Loss: 0.001336, Value Loss: 0.001336
+  R² layer mean - uw: 0.8045
+  R² layer mean - vw: 0.7590
+  R² layer mean - tw: 0.7940
+  R² layer mean - qw: 0.5829
+  Val Total Loss: 0.001788, Value Loss: 0.001788
+  Per-channel RMSE: uw=0.4804, vw=0.5378, tw=0.4871, 
+  Saved best model: F:\model\model_save\best_epoch035_val0.001788.pth
+
+Epoch 36/200
+  Train Total Loss: 0.001311, Value Loss: 0.001311
+  R² layer mean - uw: 0.8011
+  R² layer mean - vw: 0.7685
+  R² layer mean - tw: 0.7983
+  R² layer mean - qw: 0.5976
+  Val Total Loss: 0.001774, Value Loss: 0.001774
+  Per-channel RMSE: uw=0.4853, vw=0.5278, tw=0.4821, 
+  Saved best model: F:\model\model_save\best_epoch036_val0.001774.pth
+
+Epoch 37/200
+  Train Total Loss: 0.001286, Value Loss: 0.001286
+  R² layer mean - uw: 0.7943
+  R² layer mean - vw: 0.7600
+  R² layer mean - tw: 0.7954
+  R² layer mean - qw: 0.5890
+  Val Total Loss: 0.001808, Value Loss: 0.001808
+  Per-channel RMSE: uw=0.4920, vw=0.5380, tw=0.4853, 
+
+Epoch 38/200
+  Train Total Loss: 0.001290, Value Loss: 0.001290
+  R² layer mean - uw: 0.7888
+  R² layer mean - vw: 0.7605
+  R² layer mean - tw: 0.7904
+  R² layer mean - qw: 0.5591
+  Val Total Loss: 0.001812, Value Loss: 0.001812
+  Per-channel RMSE: uw=0.4991, vw=0.5372, tw=0.4913, 
+
+Epoch 39/200
+  Train Total Loss: 0.001278, Value Loss: 0.001278
+  R² layer mean - uw: 0.7998
+  R² layer mean - vw: 0.7625
+  R² layer mean - tw: 0.7967
+  R² layer mean - qw: 0.5720
+  Val Total Loss: 0.001796, Value Loss: 0.001796
+  Per-channel RMSE: uw=0.4868, vw=0.5356, tw=0.4840, 
+
+Epoch 40/200
+  Train Total Loss: 0.001272, Value Loss: 0.001272
+  R² layer mean - uw: 0.8119
+  R² layer mean - vw: 0.7648
+  R² layer mean - tw: 0.8058
+  R² layer mean - qw: 0.4768
+  Val Total Loss: 0.001749, Value Loss: 0.001749
+  Per-channel RMSE: uw=0.4705, vw=0.5308, tw=0.4731, 
+  Saved best model: F:\model\model_save\best_epoch040_val0.001749.pth
+
+Epoch 41/200
+  Train Total Loss: 0.001268, Value Loss: 0.001268
+  R² layer mean - uw: 0.7987
+  R² layer mean - vw: 0.7614
+  R² layer mean - tw: 0.7959
+  R² layer mean - qw: 0.5523
+  Val Total Loss: 0.001819, Value Loss: 0.001819
+  Per-channel RMSE: uw=0.4872, vw=0.5354, tw=0.4851, 
+
+Epoch 42/200
+  Train Total Loss: 0.001244, Value Loss: 0.001244
+  R² layer mean - uw: 0.8061
+  R² layer mean - vw: 0.7751
+  R² layer mean - tw: 0.8071
+  R² layer mean - qw: 0.5813
+  Val Total Loss: 0.001722, Value Loss: 0.001722
+  Per-channel RMSE: uw=0.4784, vw=0.5200, tw=0.4714, 
+  Saved best model: F:\model\model_save\best_epoch042_val0.001722.pth
+
+Epoch 43/200
+  Train Total Loss: 0.001258, Value Loss: 0.001258
+  R² layer mean - uw: 0.8141
+  R² layer mean - vw: 0.7834
+  R² layer mean - tw: 0.8011
+  R² layer mean - qw: 0.5803
+  Val Total Loss: 0.001700, Value Loss: 0.001700
+  Per-channel RMSE: uw=0.4686, vw=0.5100, tw=0.4786, 
+  Saved best model: F:\model\model_save\best_epoch043_val0.001700.pth
+
+Epoch 44/200
+  Train Total Loss: 0.001206, Value Loss: 0.001206
+  R² layer mean - uw: 0.8033
+  R² layer mean - vw: 0.7589
+  R² layer mean - tw: 0.7993
+  R² layer mean - qw: 0.5973
+  Val Total Loss: 0.001779, Value Loss: 0.001779
+  Per-channel RMSE: uw=0.4830, vw=0.5389, tw=0.4811, 
+
+Epoch 45/200
+  Train Total Loss: 0.001206, Value Loss: 0.001206
+  R² layer mean - uw: 0.7981
+  R² layer mean - vw: 0.7708
+  R² layer mean - tw: 0.7951
+  R² layer mean - qw: 0.5566
+  Val Total Loss: 0.001763, Value Loss: 0.001763
+  Per-channel RMSE: uw=0.4873, vw=0.5247, tw=0.4858, 
+
+Epoch 46/200
+  Train Total Loss: 0.001200, Value Loss: 0.001200
+  R² layer mean - uw: 0.8028
+  R² layer mean - vw: 0.7607
+  R² layer mean - tw: 0.7982
+  R² layer mean - qw: 0.5728
+  Val Total Loss: 0.001753, Value Loss: 0.001753
+  Per-channel RMSE: uw=0.4816, vw=0.5356, tw=0.4819, 
+
+Epoch 47/200
+  Train Total Loss: 0.001205, Value Loss: 0.001205
+  R² layer mean - uw: 0.8089
+  R² layer mean - vw: 0.7770
+  R² layer mean - tw: 0.8126
+  R² layer mean - qw: 0.5730
+  Val Total Loss: 0.001726, Value Loss: 0.001726
+  Per-channel RMSE: uw=0.4756, vw=0.5177, tw=0.4646, 
+
+Epoch 48/200
+  Train Total Loss: 0.001185, Value Loss: 0.001185
+  R² layer mean - uw: 0.8177
+  R² layer mean - vw: 0.7833
+  R² layer mean - tw: 0.8128
+  R² layer mean - qw: 0.5843
+  Val Total Loss: 0.001666, Value Loss: 0.001666
+  Per-channel RMSE: uw=0.4641, vw=0.5113, tw=0.4646, 
+  Saved best model: F:\model\model_save\best_epoch048_val0.001666.pth
+
+Epoch 49/200
+  Train Total Loss: 0.001179, Value Loss: 0.001179
+  R² layer mean - uw: 0.8098
+  R² layer mean - vw: 0.7723
+  R² layer mean - tw: 0.8168
+  R² layer mean - qw: 0.5815
+  Val Total Loss: 0.001698, Value Loss: 0.001698
+  Per-channel RMSE: uw=0.4730, vw=0.5225, tw=0.4595, 
+
+Epoch 50/200
+  Train Total Loss: 0.001164, Value Loss: 0.001164
+  R² layer mean - uw: 0.7734
+  R² layer mean - vw: 0.7394
+  R² layer mean - tw: 0.7735
+  R² layer mean - qw: 0.5741
+  Val Total Loss: 0.001920, Value Loss: 0.001920
+  Per-channel RMSE: uw=0.5169, vw=0.5601, tw=0.5110, 
+
+Epoch 51/200
+  Train Total Loss: 0.001174, Value Loss: 0.001174
+  R² layer mean - uw: 0.8127
+  R² layer mean - vw: 0.7712
+  R² layer mean - tw: 0.8106
+  R² layer mean - qw: 0.5794
+  Val Total Loss: 0.001711, Value Loss: 0.001711
+  Per-channel RMSE: uw=0.4701, vw=0.5248, tw=0.4671, 
+
+Epoch 52/200
+  Train Total Loss: 0.001139, Value Loss: 0.001139
+  R² layer mean - uw: 0.8136
+  R² layer mean - vw: 0.7768
+  R² layer mean - tw: 0.8098
+  R² layer mean - qw: 0.5460
+  Val Total Loss: 0.001705, Value Loss: 0.001705
+  Per-channel RMSE: uw=0.4687, vw=0.5196, tw=0.4682, 
+
+Epoch 53/200
+  Train Total Loss: 0.001139, Value Loss: 0.001139
+  R² layer mean - uw: 0.8186
+  R² layer mean - vw: 0.7801
+  R² layer mean - tw: 0.8064
+  R² layer mean - qw: 0.5834
+  Val Total Loss: 0.001704, Value Loss: 0.001704
+  Per-channel RMSE: uw=0.4639, vw=0.5142, tw=0.4723, 
+
+Epoch 54/200
+  Train Total Loss: 0.001131, Value Loss: 0.001131
+  R² layer mean - uw: 0.8274
+  R² layer mean - vw: 0.7894
+  R² layer mean - tw: 0.8145
+  R² layer mean - qw: 0.5881
+  Val Total Loss: 0.001646, Value Loss: 0.001646
+  Per-channel RMSE: uw=0.4512, vw=0.5028, tw=0.4623, 
+  Saved best model: F:\model\model_save\best_epoch054_val0.001646.pth
+
+Epoch 55/200
+  Train Total Loss: 0.001135, Value Loss: 0.001135
+  R² layer mean - uw: 0.8198
+  R² layer mean - vw: 0.7928
+  R² layer mean - tw: 0.8246
+  R² layer mean - qw: 0.6058
+  Val Total Loss: 0.001616, Value Loss: 0.001616
+  Per-channel RMSE: uw=0.4608, vw=0.4989, tw=0.4495, 
+  Saved best model: F:\model\model_save\best_epoch055_val0.001616.pth
+
+Epoch 56/200
+  Train Total Loss: 0.001121, Value Loss: 0.001121
+  R² layer mean - uw: 0.8195
+  R² layer mean - vw: 0.7820
+  R² layer mean - tw: 0.8206
+  R² layer mean - qw: 0.5845
+  Val Total Loss: 0.001665, Value Loss: 0.001665
+  Per-channel RMSE: uw=0.4619, vw=0.5112, tw=0.4549, 
+
+Epoch 57/200
+  Train Total Loss: 0.001110, Value Loss: 0.001110
+  R² layer mean - uw: 0.8215
+  R² layer mean - vw: 0.7779
+  R² layer mean - tw: 0.8195
+  R² layer mean - qw: 0.5721
+  Val Total Loss: 0.001679, Value Loss: 0.001679
+  Per-channel RMSE: uw=0.4594, vw=0.5153, tw=0.4561, 
+
+Epoch 58/200
+  Train Total Loss: 0.001096, Value Loss: 0.001096
+  R² layer mean - uw: 0.8233
+  R² layer mean - vw: 0.7880
+  R² layer mean - tw: 0.8139
+  R² layer mean - qw: 0.5947
+  Val Total Loss: 0.001644, Value Loss: 0.001644
+  Per-channel RMSE: uw=0.4563, vw=0.5043, tw=0.4632, 
+
+Epoch 59/200
+  Train Total Loss: 0.001099, Value Loss: 0.001099
+  R² layer mean - uw: 0.8145
+  R² layer mean - vw: 0.7786
+  R² layer mean - tw: 0.8103
+  R² layer mean - qw: 0.5806
+  Val Total Loss: 0.001709, Value Loss: 0.001709
+  Per-channel RMSE: uw=0.4679, vw=0.5154, tw=0.4675, 
+
+Epoch 60/200
+  Train Total Loss: 0.001110, Value Loss: 0.001110
+  R² layer mean - uw: 0.8318
+  R² layer mean - vw: 0.7923
+  R² layer mean - tw: 0.8265
+  R² layer mean - qw: 0.6142
+  Val Total Loss: 0.001597, Value Loss: 0.001597
+  Per-channel RMSE: uw=0.4450, vw=0.4991, tw=0.4470, 
+  Saved best model: F:\model\model_save\best_epoch060_val0.001597.pth
+
+Epoch 61/200
+  Train Total Loss: 0.001080, Value Loss: 0.001080
+  R² layer mean - uw: 0.8329
+  R² layer mean - vw: 0.8004
+  R² layer mean - tw: 0.8257
+  R² layer mean - qw: 0.5711
+  Val Total Loss: 0.001586, Value Loss: 0.001586
+  Per-channel RMSE: uw=0.4439, vw=0.4893, tw=0.4481, 
+  Saved best model: F:\model\model_save\best_epoch061_val0.001586.pth
+
+Epoch 62/200
+  Train Total Loss: 0.001080, Value Loss: 0.001080
+  R² layer mean - uw: 0.8137
+  R² layer mean - vw: 0.7858
+  R² layer mean - tw: 0.8074
+  R² layer mean - qw: 0.5960
+  Val Total Loss: 0.001669, Value Loss: 0.001669
+  Per-channel RMSE: uw=0.4687, vw=0.5068, tw=0.4709, 
+
+Epoch 63/200
+  Train Total Loss: 0.001078, Value Loss: 0.001078
+  R² layer mean - uw: 0.8172
+  R² layer mean - vw: 0.7967
+  R² layer mean - tw: 0.8200
+  R² layer mean - qw: 0.5877
+  Val Total Loss: 0.001607, Value Loss: 0.001607
+  Per-channel RMSE: uw=0.4652, vw=0.4937, tw=0.4555, 
+
+Epoch 64/200
+  Train Total Loss: 0.001066, Value Loss: 0.001066
+  R² layer mean - uw: 0.8243
+  R² layer mean - vw: 0.7844
+  R² layer mean - tw: 0.8214
+  R² layer mean - qw: 0.6017
+  Val Total Loss: 0.001652, Value Loss: 0.001652
+  Per-channel RMSE: uw=0.4551, vw=0.5099, tw=0.4537, 
+
+Epoch 65/200
+  Train Total Loss: 0.001077, Value Loss: 0.001077
+  R² layer mean - uw: 0.8321
+  R² layer mean - vw: 0.8067
+  R² layer mean - tw: 0.8302
+  R² layer mean - qw: 0.5854
+  Val Total Loss: 0.001572, Value Loss: 0.001572
+  Per-channel RMSE: uw=0.4444, vw=0.4811, tw=0.4423, 
+  Saved best model: F:\model\model_save\best_epoch065_val0.001572.pth
+
+Epoch 66/200
+  Train Total Loss: 0.001069, Value Loss: 0.001069
+  R² layer mean - uw: 0.8271
+  R² layer mean - vw: 0.7883
+  R² layer mean - tw: 0.8222
+  R² layer mean - qw: 0.5576
+  Val Total Loss: 0.001634, Value Loss: 0.001634
+  Per-channel RMSE: uw=0.4516, vw=0.5044, tw=0.4525, 
+
+Epoch 67/200
+  Train Total Loss: 0.001058, Value Loss: 0.001058
+  R² layer mean - uw: 0.8254
+  R² layer mean - vw: 0.7894
+  R² layer mean - tw: 0.8238
+  R² layer mean - qw: 0.5997
+  Val Total Loss: 0.001615, Value Loss: 0.001615
+  Per-channel RMSE: uw=0.4537, vw=0.5028, tw=0.4507, 
+
+Epoch 68/200
+  Train Total Loss: 0.001051, Value Loss: 0.001051
+  R² layer mean - uw: 0.8205
+  R² layer mean - vw: 0.7997
+  R² layer mean - tw: 0.8226
+  R² layer mean - qw: 0.6083
+  Val Total Loss: 0.001602, Value Loss: 0.001602
+  Per-channel RMSE: uw=0.4600, vw=0.4901, tw=0.4522, 
+
+Epoch 69/200
+  Train Total Loss: 0.001038, Value Loss: 0.001038
+  R² layer mean - uw: 0.8279
+  R² layer mean - vw: 0.7947
+  R² layer mean - tw: 0.8154
+  R² layer mean - qw: 0.6014
+  Val Total Loss: 0.001622, Value Loss: 0.001622
+  Per-channel RMSE: uw=0.4505, vw=0.4963, tw=0.4610, 
+
+Epoch 70/200
+  Train Total Loss: 0.001037, Value Loss: 0.001037
+  R² layer mean - uw: 0.8320
+  R² layer mean - vw: 0.7939
+  R² layer mean - tw: 0.8225
+  R² layer mean - qw: 0.5942
+  Val Total Loss: 0.001599, Value Loss: 0.001599
+  Per-channel RMSE: uw=0.4452, vw=0.4967, tw=0.4522, 
+
+Epoch 71/200
+  Train Total Loss: 0.001030, Value Loss: 0.001030
+  R² layer mean - uw: 0.8074
+  R² layer mean - vw: 0.7770
+  R² layer mean - tw: 0.8299
+  R² layer mean - qw: 0.6004
+  Val Total Loss: 0.001674, Value Loss: 0.001674
+  Per-channel RMSE: uw=0.4761, vw=0.5192, tw=0.4427, 
+
+Epoch 72/200
+  Train Total Loss: 0.000818, Value Loss: 0.000818
+  R² layer mean - uw: 0.8602
+  R² layer mean - vw: 0.8392
+  R² layer mean - tw: 0.8631
+  R² layer mean - qw: 0.6270
+  Val Total Loss: 0.001318, Value Loss: 0.001318
+  Per-channel RMSE: uw=0.4061, vw=0.4387, tw=0.3972, 
+  Saved best model: F:\model\model_save\best_epoch072_val0.001318.pth
+
+Epoch 73/200
+  Train Total Loss: 0.000752, Value Loss: 0.000752
+  R² layer mean - uw: 0.8670
+  R² layer mean - vw: 0.8405
+  R² layer mean - tw: 0.8644
+  R² layer mean - qw: 0.6182
+  Val Total Loss: 0.001305, Value Loss: 0.001305
+  Per-channel RMSE: uw=0.3957, vw=0.4366, tw=0.3951, 
+  Saved best model: F:\model\model_save\best_epoch073_val0.001305.pth
+
+Epoch 74/200
+  Train Total Loss: 0.000753, Value Loss: 0.000753
+  R² layer mean - uw: 0.8610
+  R² layer mean - vw: 0.8352
+  R² layer mean - tw: 0.8542
+  R² layer mean - qw: 0.6323
+  Val Total Loss: 0.001346, Value Loss: 0.001346
+  Per-channel RMSE: uw=0.4040, vw=0.4442, tw=0.4100, 
+
+Epoch 75/200
+  Train Total Loss: 0.000746, Value Loss: 0.000746
+  R² layer mean - uw: 0.8661
+  R² layer mean - vw: 0.8404
+  R² layer mean - tw: 0.8620
+  R² layer mean - qw: 0.6366
+  Val Total Loss: 0.001315, Value Loss: 0.001315
+  Per-channel RMSE: uw=0.3973, vw=0.4376, tw=0.3988, 
+
+Epoch 76/200
+  Train Total Loss: 0.000741, Value Loss: 0.000741
+  R² layer mean - uw: 0.8652
+  R² layer mean - vw: 0.8431
+  R² layer mean - tw: 0.8622
+  R² layer mean - qw: 0.6244
+  Val Total Loss: 0.001303, Value Loss: 0.001303
+  Per-channel RMSE: uw=0.3985, vw=0.4331, tw=0.3984, 
+  Saved best model: F:\model\model_save\best_epoch076_val0.001303.pth
+
+Epoch 77/200
+  Train Total Loss: 0.000725, Value Loss: 0.000725
+  R² layer mean - uw: 0.8645
+  R² layer mean - vw: 0.8421
+  R² layer mean - tw: 0.8623
+  R² layer mean - qw: 0.6419
+  Val Total Loss: 0.001303, Value Loss: 0.001303
+  Per-channel RMSE: uw=0.3998, vw=0.4338, tw=0.3983, 
+  Saved best model: F:\model\model_save\best_epoch077_val0.001303.pth
+
+Epoch 78/200
+  Train Total Loss: 0.000722, Value Loss: 0.000722
+  R² layer mean - uw: 0.8683
+  R² layer mean - vw: 0.8433
+  R² layer mean - tw: 0.8676
+  R² layer mean - qw: 0.6387
+  Val Total Loss: 0.001283, Value Loss: 0.001283
+  Per-channel RMSE: uw=0.3938, vw=0.4324, tw=0.3905, 
+  Saved best model: F:\model\model_save\best_epoch078_val0.001283.pth
+
+Epoch 79/200
+  Train Total Loss: 0.000715, Value Loss: 0.000715
+  R² layer mean - uw: 0.8646
+  R² layer mean - vw: 0.8419
+  R² layer mean - tw: 0.8683
+  R² layer mean - qw: 0.6450
+  Val Total Loss: 0.001287, Value Loss: 0.001287
+  Per-channel RMSE: uw=0.3995, vw=0.4349, tw=0.3896, 
+
+Epoch 80/200
+  Train Total Loss: 0.000706, Value Loss: 0.000706
+  R² layer mean - uw: 0.8691
+  R² layer mean - vw: 0.8472
+  R² layer mean - tw: 0.8669
+  R² layer mean - qw: 0.6331
+  Val Total Loss: 0.001278, Value Loss: 0.001278
+  Per-channel RMSE: uw=0.3928, vw=0.4283, tw=0.3917, 
+  Saved best model: F:\model\model_save\best_epoch080_val0.001278.pth
+
+Epoch 81/200
+  Train Total Loss: 0.000711, Value Loss: 0.000711
+  R² layer mean - uw: 0.8715
+  R² layer mean - vw: 0.8446
+  R² layer mean - tw: 0.8625
+  R² layer mean - qw: 0.6401
+  Val Total Loss: 0.001281, Value Loss: 0.001281
+  Per-channel RMSE: uw=0.3893, vw=0.4315, tw=0.3981, 
+
+Epoch 82/200
+  Train Total Loss: 0.000707, Value Loss: 0.000707
+  R² layer mean - uw: 0.8682
+  R² layer mean - vw: 0.8432
+  R² layer mean - tw: 0.8689
+  R² layer mean - qw: 0.6472
+  Val Total Loss: 0.001278, Value Loss: 0.001278
+  Per-channel RMSE: uw=0.3943, vw=0.4333, tw=0.3887, 
+
+Epoch 83/200
+  Train Total Loss: 0.000695, Value Loss: 0.000695
+  R² layer mean - uw: 0.8685
+  R² layer mean - vw: 0.8496
+  R² layer mean - tw: 0.8662
+  R² layer mean - qw: 0.6484
+  Val Total Loss: 0.001267, Value Loss: 0.001267
+  Per-channel RMSE: uw=0.3933, vw=0.4238, tw=0.3925, 
+  Saved best model: F:\model\model_save\best_epoch083_val0.001267.pth
+
+Epoch 84/200
+  Train Total Loss: 0.000689, Value Loss: 0.000689
+  R² layer mean - uw: 0.8695
+  R² layer mean - vw: 0.8434
+  R² layer mean - tw: 0.8639
+  R² layer mean - qw: 0.6391
+  Val Total Loss: 0.001295, Value Loss: 0.001295
+  Per-channel RMSE: uw=0.3921, vw=0.4328, tw=0.3960, 
+
+Epoch 85/200
+  Train Total Loss: 0.000688, Value Loss: 0.000688
+  R² layer mean - uw: 0.8685
+  R² layer mean - vw: 0.8426
+  R² layer mean - tw: 0.8668
+  R² layer mean - qw: 0.6426
+  Val Total Loss: 0.001288, Value Loss: 0.001288
+  Per-channel RMSE: uw=0.3934, vw=0.4344, tw=0.3918, 
+
+Epoch 86/200
+  Train Total Loss: 0.000686, Value Loss: 0.000686
+  R² layer mean - uw: 0.8715
+  R² layer mean - vw: 0.8424
+  R² layer mean - tw: 0.8679
+  R² layer mean - qw: 0.6552
+  Val Total Loss: 0.001262, Value Loss: 0.001262
+  Per-channel RMSE: uw=0.3891, vw=0.4343, tw=0.3902, 
+  Saved best model: F:\model\model_save\best_epoch086_val0.001262.pth
+
+Epoch 87/200
+  Train Total Loss: 0.000675, Value Loss: 0.000675
+  R² layer mean - uw: 0.8737
+  R² layer mean - vw: 0.8489
+  R² layer mean - tw: 0.8716
+  R² layer mean - qw: 0.6529
+  Val Total Loss: 0.001250, Value Loss: 0.001250
+  Per-channel RMSE: uw=0.3858, vw=0.4254, tw=0.3848, 
+  Saved best model: F:\model\model_save\best_epoch087_val0.001250.pth
+
+Epoch 88/200
+  Train Total Loss: 0.000684, Value Loss: 0.000684
+  R² layer mean - uw: 0.8664
+  R² layer mean - vw: 0.8433
+  R² layer mean - tw: 0.8681
+  R² layer mean - qw: 0.6487
+  Val Total Loss: 0.001291, Value Loss: 0.001291
+  Per-channel RMSE: uw=0.3973, vw=0.4330, tw=0.3898, 
+
+Epoch 89/200
+  Train Total Loss: 0.000683, Value Loss: 0.000683
+  R² layer mean - uw: 0.8724
+  R² layer mean - vw: 0.8530
+  R² layer mean - tw: 0.8714
+  R² layer mean - qw: 0.6563
+  Val Total Loss: 0.001239, Value Loss: 0.001239
+  Per-channel RMSE: uw=0.3878, vw=0.4197, tw=0.3850, 
+  Saved best model: F:\model\model_save\best_epoch089_val0.001239.pth
+
+Epoch 90/200
+  Train Total Loss: 0.000670, Value Loss: 0.000670
+  R² layer mean - uw: 0.8741
+  R² layer mean - vw: 0.8467
+  R² layer mean - tw: 0.8671
+  R² layer mean - qw: 0.6386
+  Val Total Loss: 0.001264, Value Loss: 0.001264
+  Per-channel RMSE: uw=0.3850, vw=0.4285, tw=0.3914, 
+
+Epoch 91/200
+  Train Total Loss: 0.000670, Value Loss: 0.000670
+  R² layer mean - uw: 0.8712
+  R² layer mean - vw: 0.8469
+  R² layer mean - tw: 0.8653
+  R² layer mean - qw: 0.6472
+  Val Total Loss: 0.001273, Value Loss: 0.001273
+  Per-channel RMSE: uw=0.3898, vw=0.4282, tw=0.3940, 
+
+Epoch 92/200
+  Train Total Loss: 0.000671, Value Loss: 0.000671
+  R² layer mean - uw: 0.8729
+  R² layer mean - vw: 0.8504
+  R² layer mean - tw: 0.8719
+  R² layer mean - qw: 0.6484
+  Val Total Loss: 0.001245, Value Loss: 0.001245
+  Per-channel RMSE: uw=0.3871, vw=0.4229, tw=0.3842, 
+
+Epoch 93/200
+  Train Total Loss: 0.000665, Value Loss: 0.000665
+  R² layer mean - uw: 0.8703
+  R² layer mean - vw: 0.8455
+  R² layer mean - tw: 0.8694
+  R² layer mean - qw: 0.6553
+  Val Total Loss: 0.001268, Value Loss: 0.001268
+  Per-channel RMSE: uw=0.3911, vw=0.4303, tw=0.3881, 
+
+Epoch 94/200
+  Train Total Loss: 0.000664, Value Loss: 0.000664
+  R² layer mean - uw: 0.8733
+  R² layer mean - vw: 0.8511
+  R² layer mean - tw: 0.8707
+  R² layer mean - qw: 0.6522
+  Val Total Loss: 0.001246, Value Loss: 0.001246
+  Per-channel RMSE: uw=0.3869, vw=0.4224, tw=0.3861, 
+
+Epoch 95/200
+  Train Total Loss: 0.000663, Value Loss: 0.000663
+  R² layer mean - uw: 0.8722
+  R² layer mean - vw: 0.8498
+  R² layer mean - tw: 0.8689
+  R² layer mean - qw: 0.6498
+  Val Total Loss: 0.001251, Value Loss: 0.001251
+  Per-channel RMSE: uw=0.3886, vw=0.4244, tw=0.3887, 
+
+Epoch 96/200
+  Train Total Loss: 0.000548, Value Loss: 0.000548
+  R² layer mean - uw: 0.8891
+  R² layer mean - vw: 0.8662
+  R² layer mean - tw: 0.8847
+  R² layer mean - qw: 0.6690
+  Val Total Loss: 0.001119, Value Loss: 0.001119
+  Per-channel RMSE: uw=0.3614, vw=0.4002, tw=0.3647, 
+  Saved best model: F:\model\model_save\best_epoch096_val0.001119.pth
+
+Epoch 97/200
+  Train Total Loss: 0.000515, Value Loss: 0.000515
+  R² layer mean - uw: 0.8901
+  R² layer mean - vw: 0.8681
+  R² layer mean - tw: 0.8857
+  R² layer mean - qw: 0.6723
+  Val Total Loss: 0.001107, Value Loss: 0.001107
+  Per-channel RMSE: uw=0.3598, vw=0.3970, tw=0.3629, 
+  Saved best model: F:\model\model_save\best_epoch097_val0.001107.pth
+
+Epoch 98/200
+  Train Total Loss: 0.000504, Value Loss: 0.000504
+  R² layer mean - uw: 0.8867
+  R² layer mean - vw: 0.8652
+  R² layer mean - tw: 0.8821
+  R² layer mean - qw: 0.6686
+  Val Total Loss: 0.001126, Value Loss: 0.001126
+  Per-channel RMSE: uw=0.3654, vw=0.4017, tw=0.3687, 
+
+Epoch 99/200
+  Train Total Loss: 0.000504, Value Loss: 0.000504
+  R² layer mean - uw: 0.8883
+  R² layer mean - vw: 0.8698
+  R² layer mean - tw: 0.8875
+  R² layer mean - qw: 0.6762
+  Val Total Loss: 0.001098, Value Loss: 0.001098
+  Per-channel RMSE: uw=0.3631, vw=0.3945, tw=0.3602, 
+  Saved best model: F:\model\model_save\best_epoch099_val0.001098.pth
+
+Epoch 100/200
+  Train Total Loss: 0.000494, Value Loss: 0.000494
+  R² layer mean - uw: 0.8916
+  R² layer mean - vw: 0.8700
+  R² layer mean - tw: 0.8867
+  R² layer mean - qw: 0.6719
+  Val Total Loss: 0.001096, Value Loss: 0.001096
+  Per-channel RMSE: uw=0.3572, vw=0.3940, tw=0.3613, 
+  Saved best model: F:\model\model_save\best_epoch100_val0.001096.pth
+
+Epoch 101/200
+  Train Total Loss: 0.000503, Value Loss: 0.000503
+  R² layer mean - uw: 0.8918
+  R² layer mean - vw: 0.8690
+  R² layer mean - tw: 0.8884
+  R² layer mean - qw: 0.6600
+  Val Total Loss: 0.001096, Value Loss: 0.001096
+  Per-channel RMSE: uw=0.3571, vw=0.3957, tw=0.3586, 
+  Saved best model: F:\model\model_save\best_epoch101_val0.001096.pth
+
+Epoch 102/200
+  Train Total Loss: 0.000487, Value Loss: 0.000487
+  R² layer mean - uw: 0.8921
+  R² layer mean - vw: 0.8700
+  R² layer mean - tw: 0.8863
+  R² layer mean - qw: 0.6725
+  Val Total Loss: 0.001089, Value Loss: 0.001089
+  Per-channel RMSE: uw=0.3562, vw=0.3938, tw=0.3620, 
+  Saved best model: F:\model\model_save\best_epoch102_val0.001089.pth
+
+Epoch 103/200
+  Train Total Loss: 0.000489, Value Loss: 0.000489
+  R² layer mean - uw: 0.8890
+  R² layer mean - vw: 0.8669
+  R² layer mean - tw: 0.8861
+  R² layer mean - qw: 0.6744
+  Val Total Loss: 0.001111, Value Loss: 0.001111
+  Per-channel RMSE: uw=0.3617, vw=0.3988, tw=0.3624, 
+
+Epoch 104/200
+  Train Total Loss: 0.000491, Value Loss: 0.000491
+  R² layer mean - uw: 0.8916
+  R² layer mean - vw: 0.8676
+  R² layer mean - tw: 0.8824
+  R² layer mean - qw: 0.6675
+  Val Total Loss: 0.001107, Value Loss: 0.001107
+  Per-channel RMSE: uw=0.3572, vw=0.3979, tw=0.3681, 
+
+Epoch 105/200
+  Train Total Loss: 0.000484, Value Loss: 0.000484
+  R² layer mean - uw: 0.8898
+  R² layer mean - vw: 0.8690
+  R² layer mean - tw: 0.8829
+  R² layer mean - qw: 0.6705
+  Val Total Loss: 0.001110, Value Loss: 0.001110
+  Per-channel RMSE: uw=0.3607, vw=0.3957, tw=0.3675, 
+
+Epoch 106/200
+  Train Total Loss: 0.000478, Value Loss: 0.000478
+  R² layer mean - uw: 0.8925
+  R² layer mean - vw: 0.8688
+  R² layer mean - tw: 0.8876
+  R² layer mean - qw: 0.6563
+  Val Total Loss: 0.001092, Value Loss: 0.001092
+  Per-channel RMSE: uw=0.3560, vw=0.3958, tw=0.3599, 
+
+Epoch 107/200
+  Train Total Loss: 0.000476, Value Loss: 0.000476
+  R² layer mean - uw: 0.8930
+  R² layer mean - vw: 0.8703
+  R² layer mean - tw: 0.8885
+  R² layer mean - qw: 0.6778
+  Val Total Loss: 0.001088, Value Loss: 0.001088
+  Per-channel RMSE: uw=0.3551, vw=0.3939, tw=0.3585, 
+  Saved best model: F:\model\model_save\best_epoch107_val0.001088.pth
+
+Epoch 108/200
+  Train Total Loss: 0.000478, Value Loss: 0.000478
+  R² layer mean - uw: 0.8925
+  R² layer mean - vw: 0.8715
+  R² layer mean - tw: 0.8887
+  R² layer mean - qw: 0.6697
+  Val Total Loss: 0.001084, Value Loss: 0.001084
+  Per-channel RMSE: uw=0.3559, vw=0.3920, tw=0.3582, 
+  Saved best model: F:\model\model_save\best_epoch108_val0.001084.pth
+
+Epoch 109/200
+  Train Total Loss: 0.000474, Value Loss: 0.000474
+  R² layer mean - uw: 0.8908
+  R² layer mean - vw: 0.8710
+  R² layer mean - tw: 0.8875
+  R² layer mean - qw: 0.6723
+  Val Total Loss: 0.001087, Value Loss: 0.001087
+  Per-channel RMSE: uw=0.3585, vw=0.3925, tw=0.3601, 
+
+Epoch 110/200
+  Train Total Loss: 0.000473, Value Loss: 0.000473
+  R² layer mean - uw: 0.8878
+  R² layer mean - vw: 0.8695
+  R² layer mean - tw: 0.8858
+  R² layer mean - qw: 0.6719
+  Val Total Loss: 0.001094, Value Loss: 0.001094
+  Per-channel RMSE: uw=0.3639, vw=0.3947, tw=0.3628, 
+
+Epoch 111/200
+  Train Total Loss: 0.000468, Value Loss: 0.000468
+  R² layer mean - uw: 0.8904
+  R² layer mean - vw: 0.8683
+  R² layer mean - tw: 0.8869
+  R² layer mean - qw: 0.6734
+  Val Total Loss: 0.001098, Value Loss: 0.001098
+  Per-channel RMSE: uw=0.3593, vw=0.3969, tw=0.3610, 
+
+Epoch 112/200
+  Train Total Loss: 0.000471, Value Loss: 0.000471
+  R² layer mean - uw: 0.8949
+  R² layer mean - vw: 0.8699
+  R² layer mean - tw: 0.8891
+  R² layer mean - qw: 0.6639
+  Val Total Loss: 0.001083, Value Loss: 0.001083
+  Per-channel RMSE: uw=0.3519, vw=0.3945, tw=0.3576, 
+  Saved best model: F:\model\model_save\best_epoch112_val0.001083.pth
+
+Epoch 113/200
+  Train Total Loss: 0.000466, Value Loss: 0.000466
+  R² layer mean - uw: 0.8943
+  R² layer mean - vw: 0.8714
+  R² layer mean - tw: 0.8885
+  R² layer mean - qw: 0.6728
+  Val Total Loss: 0.001083, Value Loss: 0.001083
+  Per-channel RMSE: uw=0.3527, vw=0.3922, tw=0.3585, 
+  Saved best model: F:\model\model_save\best_epoch113_val0.001083.pth
+
+Epoch 114/200
+  Train Total Loss: 0.000469, Value Loss: 0.000469
+  R² layer mean - uw: 0.8897
+  R² layer mean - vw: 0.8704
+  R² layer mean - tw: 0.8849
+  R² layer mean - qw: 0.6767
+  Val Total Loss: 0.001094, Value Loss: 0.001094
+  Per-channel RMSE: uw=0.3611, vw=0.3936, tw=0.3643, 
+
+Epoch 115/200
+  Train Total Loss: 0.000460, Value Loss: 0.000460
+  R² layer mean - uw: 0.8871
+  R² layer mean - vw: 0.8708
+  R² layer mean - tw: 0.8856
+  R² layer mean - qw: 0.6700
+  Val Total Loss: 0.001096, Value Loss: 0.001096
+  Per-channel RMSE: uw=0.3651, vw=0.3930, tw=0.3633, 
+
+Epoch 116/200
+  Train Total Loss: 0.000462, Value Loss: 0.000462
+  R² layer mean - uw: 0.8928
+  R² layer mean - vw: 0.8723
+  R² layer mean - tw: 0.8881
+  R² layer mean - qw: 0.6532
+  Val Total Loss: 0.001082, Value Loss: 0.001082
+  Per-channel RMSE: uw=0.3554, vw=0.3904, tw=0.3591, 
+  Saved best model: F:\model\model_save\best_epoch116_val0.001082.pth
+
+Epoch 117/200
+  Train Total Loss: 0.000461, Value Loss: 0.000461
+  R² layer mean - uw: 0.8861
+  R² layer mean - vw: 0.8671
+  R² layer mean - tw: 0.8857
+  R² layer mean - qw: 0.6812
+  Val Total Loss: 0.001104, Value Loss: 0.001104
+  Per-channel RMSE: uw=0.3669, vw=0.3989, tw=0.3629, 
+
+Epoch 118/200
+  Train Total Loss: 0.000459, Value Loss: 0.000459
+  R² layer mean - uw: 0.8914
+  R² layer mean - vw: 0.8686
+  R² layer mean - tw: 0.8859
+  R² layer mean - qw: 0.6792
+  Val Total Loss: 0.001095, Value Loss: 0.001095
+  Per-channel RMSE: uw=0.3577, vw=0.3964, tw=0.3628, 
+
+Epoch 119/200
+  Train Total Loss: 0.000457, Value Loss: 0.000457
+  R² layer mean - uw: 0.8912
+  R² layer mean - vw: 0.8711
+  R² layer mean - tw: 0.8851
+  R² layer mean - qw: 0.6673
+  Val Total Loss: 0.001083, Value Loss: 0.001083
+  Per-channel RMSE: uw=0.3586, vw=0.3927, tw=0.3640, 
+
+Epoch 120/200
+  Train Total Loss: 0.000458, Value Loss: 0.000458
+  R² layer mean - uw: 0.8908
+  R² layer mean - vw: 0.8622
+  R² layer mean - tw: 0.8869
+  R² layer mean - qw: 0.6784
+  Val Total Loss: 0.001121, Value Loss: 0.001121
+  Per-channel RMSE: uw=0.3588, vw=0.4059, tw=0.3610, 
+
+Epoch 121/200
+  Train Total Loss: 0.000457, Value Loss: 0.000457
+  R² layer mean - uw: 0.8951
+  R² layer mean - vw: 0.8675
+  R² layer mean - tw: 0.8888
+  R² layer mean - qw: 0.6814
+  Val Total Loss: 0.001088, Value Loss: 0.001088
+  Per-channel RMSE: uw=0.3515, vw=0.3980, tw=0.3581, 
+
+Epoch 122/200
+  Train Total Loss: 0.000451, Value Loss: 0.000451
+  R² layer mean - uw: 0.8937
+  R² layer mean - vw: 0.8709
+  R² layer mean - tw: 0.8901
+  R² layer mean - qw: 0.6750
+  Val Total Loss: 0.001084, Value Loss: 0.001084
+  Per-channel RMSE: uw=0.3541, vw=0.3930, tw=0.3559, 
+
+Epoch 123/200
+  Train Total Loss: 0.000396, Value Loss: 0.000396
+  R² layer mean - uw: 0.8979
+  R² layer mean - vw: 0.8792
+  R² layer mean - tw: 0.8925
+  R² layer mean - qw: 0.6829
+  Val Total Loss: 0.001024, Value Loss: 0.001024
+  Per-channel RMSE: uw=0.3472, vw=0.3799, tw=0.3521, 
+  Saved best model: F:\model\model_save\best_epoch123_val0.001024.pth
+
+Epoch 124/200
+  Train Total Loss: 0.000377, Value Loss: 0.000377
+  R² layer mean - uw: 0.8981
+  R² layer mean - vw: 0.8786
+  R² layer mean - tw: 0.8936
+  R² layer mean - qw: 0.6845
+  Val Total Loss: 0.001024, Value Loss: 0.001024
+  Per-channel RMSE: uw=0.3466, vw=0.3810, tw=0.3502, 
+
+Epoch 125/200
+  Train Total Loss: 0.000374, Value Loss: 0.000374
+  R² layer mean - uw: 0.8994
+  R² layer mean - vw: 0.8798
+  R² layer mean - tw: 0.8928
+  R² layer mean - qw: 0.6748
+  Val Total Loss: 0.001016, Value Loss: 0.001016
+  Per-channel RMSE: uw=0.3443, vw=0.3788, tw=0.3515, 
+  Saved best model: F:\model\model_save\best_epoch125_val0.001016.pth
+
+Epoch 126/200
+  Train Total Loss: 0.000371, Value Loss: 0.000371
+  R² layer mean - uw: 0.9003
+  R² layer mean - vw: 0.8789
+  R² layer mean - tw: 0.8942
+  R² layer mean - qw: 0.6864
+  Val Total Loss: 0.001016, Value Loss: 0.001016
+  Per-channel RMSE: uw=0.3428, vw=0.3804, tw=0.3492, 
+
+Epoch 127/200
+  Train Total Loss: 0.000371, Value Loss: 0.000371
+  R² layer mean - uw: 0.8993
+  R² layer mean - vw: 0.8784
+  R² layer mean - tw: 0.8908
+  R² layer mean - qw: 0.6837
+  Val Total Loss: 0.001027, Value Loss: 0.001027
+  Per-channel RMSE: uw=0.3445, vw=0.3812, tw=0.3547, 
+
+Epoch 128/200
+  Train Total Loss: 0.000369, Value Loss: 0.000369
+  R² layer mean - uw: 0.9001
+  R² layer mean - vw: 0.8793
+  R² layer mean - tw: 0.8904
+  R² layer mean - qw: 0.6783
+  Val Total Loss: 0.001023, Value Loss: 0.001023
+  Per-channel RMSE: uw=0.3433, vw=0.3797, tw=0.3554, 
+
+Epoch 129/200
+  Train Total Loss: 0.000369, Value Loss: 0.000369
+  R² layer mean - uw: 0.9007
+  R² layer mean - vw: 0.8796
+  R² layer mean - tw: 0.8931
+  R² layer mean - qw: 0.6834
+  Val Total Loss: 0.001017, Value Loss: 0.001017
+  Per-channel RMSE: uw=0.3423, vw=0.3792, tw=0.3510, 
+
+Epoch 130/200
+  Train Total Loss: 0.000364, Value Loss: 0.000364
+  R² layer mean - uw: 0.9002
+  R² layer mean - vw: 0.8792
+  R² layer mean - tw: 0.8932
+  R² layer mean - qw: 0.6742
+  Val Total Loss: 0.001017, Value Loss: 0.001017
+  Per-channel RMSE: uw=0.3430, vw=0.3798, tw=0.3508, 
+
+Epoch 131/200
+  Train Total Loss: 0.000368, Value Loss: 0.000368
+  R² layer mean - uw: 0.8991
+  R² layer mean - vw: 0.8801
+  R² layer mean - tw: 0.8955
+  R² layer mean - qw: 0.6827
+  Val Total Loss: 0.001013, Value Loss: 0.001013
+  Per-channel RMSE: uw=0.3451, vw=0.3784, tw=0.3471, 
+  Saved best model: F:\model\model_save\best_epoch131_val0.001013.pth
+
+Epoch 132/200
+  Train Total Loss: 0.000366, Value Loss: 0.000366
+  R² layer mean - uw: 0.8977
+  R² layer mean - vw: 0.8805
+  R² layer mean - tw: 0.8948
+  R² layer mean - qw: 0.6850
+  Val Total Loss: 0.001014, Value Loss: 0.001014
+  Per-channel RMSE: uw=0.3475, vw=0.3778, tw=0.3481, 
+
+Epoch 133/200
+  Train Total Loss: 0.000361, Value Loss: 0.000361
+  R² layer mean - uw: 0.8999
+  R² layer mean - vw: 0.8796
+  R² layer mean - tw: 0.8959
+  R² layer mean - qw: 0.6857
+  Val Total Loss: 0.001012, Value Loss: 0.001012
+  Per-channel RMSE: uw=0.3437, vw=0.3793, tw=0.3464, 
+  Saved best model: F:\model\model_save\best_epoch133_val0.001012.pth
+
+Epoch 134/200
+  Train Total Loss: 0.000360, Value Loss: 0.000360
+  R² layer mean - uw: 0.9002
+  R² layer mean - vw: 0.8797
+  R² layer mean - tw: 0.8957
+  R² layer mean - qw: 0.6825
+  Val Total Loss: 0.001013, Value Loss: 0.001013
+  Per-channel RMSE: uw=0.3431, vw=0.3792, tw=0.3467, 
+
+Epoch 135/200
+  Train Total Loss: 0.000357, Value Loss: 0.000357
+  R² layer mean - uw: 0.9019
+  R² layer mean - vw: 0.8809
+  R² layer mean - tw: 0.8963
+  R² layer mean - qw: 0.6783
+  Val Total Loss: 0.001004, Value Loss: 0.001004
+  Per-channel RMSE: uw=0.3401, vw=0.3772, tw=0.3457, 
+  Saved best model: F:\model\model_save\best_epoch135_val0.001004.pth
+
+Epoch 136/200
+  Train Total Loss: 0.000360, Value Loss: 0.000360
+  R² layer mean - uw: 0.9004
+  R² layer mean - vw: 0.8797
+  R² layer mean - tw: 0.8951
+  R² layer mean - qw: 0.6818
+  Val Total Loss: 0.001013, Value Loss: 0.001013
+  Per-channel RMSE: uw=0.3430, vw=0.3792, tw=0.3478, 
+
+Epoch 137/200
+  Train Total Loss: 0.000357, Value Loss: 0.000357
+  R² layer mean - uw: 0.9010
+  R² layer mean - vw: 0.8796
+  R² layer mean - tw: 0.8949
+  R² layer mean - qw: 0.6831
+  Val Total Loss: 0.001010, Value Loss: 0.001010
+  Per-channel RMSE: uw=0.3416, vw=0.3792, tw=0.3481, 
+
+Epoch 138/200
+  Train Total Loss: 0.000357, Value Loss: 0.000357
+  R² layer mean - uw: 0.9008
+  R² layer mean - vw: 0.8763
+  R² layer mean - tw: 0.8941
+  R² layer mean - qw: 0.6774
+  Val Total Loss: 0.001024, Value Loss: 0.001024
+  Per-channel RMSE: uw=0.3420, vw=0.3846, tw=0.3494, 
+
+Epoch 139/200
+  Train Total Loss: 0.000357, Value Loss: 0.000357
+  R² layer mean - uw: 0.9016
+  R² layer mean - vw: 0.8800
+  R² layer mean - tw: 0.8959
+  R² layer mean - qw: 0.6744
+  Val Total Loss: 0.001007, Value Loss: 0.001007
+  Per-channel RMSE: uw=0.3406, vw=0.3786, tw=0.3464, 
+
+Epoch 140/200
+  Train Total Loss: 0.000357, Value Loss: 0.000357
+  R² layer mean - uw: 0.9003
+  R² layer mean - vw: 0.8806
+  R² layer mean - tw: 0.8948
+  R² layer mean - qw: 0.6847
+  Val Total Loss: 0.001007, Value Loss: 0.001007
+  Per-channel RMSE: uw=0.3429, vw=0.3777, tw=0.3482, 
+
+Epoch 141/200
+  Train Total Loss: 0.000355, Value Loss: 0.000355
+  R² layer mean - uw: 0.9024
+  R² layer mean - vw: 0.8809
+  R² layer mean - tw: 0.8944
+  R² layer mean - qw: 0.6834
+  Val Total Loss: 0.001005, Value Loss: 0.001005
+  Per-channel RMSE: uw=0.3394, vw=0.3773, tw=0.3490, 
+
+Epoch 142/200
+  Train Total Loss: 0.000326, Value Loss: 0.000326
+  R² layer mean - uw: 0.9047
+  R² layer mean - vw: 0.8830
+  R² layer mean - tw: 0.8982
+  R² layer mean - qw: 0.6864
+  Val Total Loss: 0.000983, Value Loss: 0.000983
+  Per-channel RMSE: uw=0.3354, vw=0.3739, tw=0.3425, 
+  Saved best model: F:\model\model_save\best_epoch142_val0.000983.pth
+
+Epoch 143/200
+  Train Total Loss: 0.000320, Value Loss: 0.000320
+  R² layer mean - uw: 0.9046
+  R² layer mean - vw: 0.8836
+  R² layer mean - tw: 0.8985
+  R² layer mean - qw: 0.6895
+  Val Total Loss: 0.000982, Value Loss: 0.000982
+  Per-channel RMSE: uw=0.3355, vw=0.3727, tw=0.3421, 
+  Saved best model: F:\model\model_save\best_epoch143_val0.000982.pth
+
+Epoch 144/200
+  Train Total Loss: 0.000316, Value Loss: 0.000316
+  R² layer mean - uw: 0.9041
+  R² layer mean - vw: 0.8831
+  R² layer mean - tw: 0.8984
+  R² layer mean - qw: 0.6804
+  Val Total Loss: 0.000981, Value Loss: 0.000981
+  Per-channel RMSE: uw=0.3364, vw=0.3737, tw=0.3422, 
+  Saved best model: F:\model\model_save\best_epoch144_val0.000981.pth
+
+Epoch 145/200
+  Train Total Loss: 0.000314, Value Loss: 0.000314
+  R² layer mean - uw: 0.9031
+  R² layer mean - vw: 0.8827
+  R² layer mean - tw: 0.8971
+  R² layer mean - qw: 0.6843
+  Val Total Loss: 0.000985, Value Loss: 0.000985
+  Per-channel RMSE: uw=0.3381, vw=0.3744, tw=0.3444, 
+
+Epoch 146/200
+  Train Total Loss: 0.000312, Value Loss: 0.000312
+  R² layer mean - uw: 0.9055
+  R² layer mean - vw: 0.8833
+  R² layer mean - tw: 0.8973
+  R² layer mean - qw: 0.6823
+  Val Total Loss: 0.000980, Value Loss: 0.000980
+  Per-channel RMSE: uw=0.3338, vw=0.3733, tw=0.3441, 
+  Saved best model: F:\model\model_save\best_epoch146_val0.000980.pth
+
+Epoch 147/200
+  Train Total Loss: 0.000315, Value Loss: 0.000315
+  R² layer mean - uw: 0.9037
+  R² layer mean - vw: 0.8821
+  R² layer mean - tw: 0.8978
+  R² layer mean - qw: 0.6835
+  Val Total Loss: 0.000984, Value Loss: 0.000984
+  Per-channel RMSE: uw=0.3371, vw=0.3753, tw=0.3433, 
+
+Epoch 148/200
+  Train Total Loss: 0.000314, Value Loss: 0.000314
+  R² layer mean - uw: 0.9031
+  R² layer mean - vw: 0.8823
+  R² layer mean - tw: 0.8966
+  R² layer mean - qw: 0.6864
+  Val Total Loss: 0.000988, Value Loss: 0.000988
+  Per-channel RMSE: uw=0.3383, vw=0.3750, tw=0.3453, 
+
+Epoch 149/200
+  Train Total Loss: 0.000312, Value Loss: 0.000312
+  R² layer mean - uw: 0.9046
+  R² layer mean - vw: 0.8829
+  R² layer mean - tw: 0.8968
+  R² layer mean - qw: 0.6760
+  Val Total Loss: 0.000983, Value Loss: 0.000983
+  Per-channel RMSE: uw=0.3357, vw=0.3739, tw=0.3449, 
+
+Epoch 150/200
+  Train Total Loss: 0.000312, Value Loss: 0.000312
+  R² layer mean - uw: 0.9048
+  R² layer mean - vw: 0.8831
+  R² layer mean - tw: 0.8982
+  R² layer mean - qw: 0.6807
+  Val Total Loss: 0.000982, Value Loss: 0.000982
+  Per-channel RMSE: uw=0.3352, vw=0.3738, tw=0.3426, 
+
+Epoch 151/200
+  Train Total Loss: 0.000310, Value Loss: 0.000310
+  R² layer mean - uw: 0.9024
+  R² layer mean - vw: 0.8828
+  R² layer mean - tw: 0.8970
+  R² layer mean - qw: 0.6882
+  Val Total Loss: 0.000985, Value Loss: 0.000985
+  Per-channel RMSE: uw=0.3395, vw=0.3742, tw=0.3446, 
+
+Epoch 152/200
+  Train Total Loss: 0.000308, Value Loss: 0.000308
+  R² layer mean - uw: 0.9052
+  R² layer mean - vw: 0.8831
+  R² layer mean - tw: 0.8988
+  R² layer mean - qw: 0.6788
+  Val Total Loss: 0.000978, Value Loss: 0.000978
+  Per-channel RMSE: uw=0.3344, vw=0.3736, tw=0.3415, 
+  Saved best model: F:\model\model_save\best_epoch152_val0.000978.pth
+
+Epoch 153/200
+  Train Total Loss: 0.000311, Value Loss: 0.000311
+  R² layer mean - uw: 0.9051
+  R² layer mean - vw: 0.8834
+  R² layer mean - tw: 0.8984
+  R² layer mean - qw: 0.6804
+  Val Total Loss: 0.000979, Value Loss: 0.000979
+  Per-channel RMSE: uw=0.3345, vw=0.3731, tw=0.3422, 
+
+Epoch 154/200
+  Train Total Loss: 0.000307, Value Loss: 0.000307
+  R² layer mean - uw: 0.9032
+  R² layer mean - vw: 0.8816
+  R² layer mean - tw: 0.8969
+  R² layer mean - qw: 0.6842
+  Val Total Loss: 0.000989, Value Loss: 0.000989
+  Per-channel RMSE: uw=0.3379, vw=0.3761, tw=0.3448, 
+
+Epoch 155/200
+  Train Total Loss: 0.000309, Value Loss: 0.000309
+  R² layer mean - uw: 0.9027
+  R² layer mean - vw: 0.8813
+  R² layer mean - tw: 0.8972
+  R² layer mean - qw: 0.6815
+  Val Total Loss: 0.000988, Value Loss: 0.000988
+  Per-channel RMSE: uw=0.3390, vw=0.3765, tw=0.3443, 
+
+Epoch 156/200
+  Train Total Loss: 0.000310, Value Loss: 0.000310
+  R² layer mean - uw: 0.9037
+  R² layer mean - vw: 0.8835
+  R² layer mean - tw: 0.8979
+  R² layer mean - qw: 0.6825
+  Val Total Loss: 0.000979, Value Loss: 0.000979
+  Per-channel RMSE: uw=0.3372, vw=0.3729, tw=0.3432, 
+
+Epoch 157/200
+  Train Total Loss: 0.000307, Value Loss: 0.000307
+  R² layer mean - uw: 0.9049
+  R² layer mean - vw: 0.8833
+  R² layer mean - tw: 0.8975
+  R² layer mean - qw: 0.6825
+  Val Total Loss: 0.000978, Value Loss: 0.000978
+  Per-channel RMSE: uw=0.3351, vw=0.3732, tw=0.3437, 
+
+Epoch 158/200
+  Train Total Loss: 0.000302, Value Loss: 0.000302
+  R² layer mean - uw: 0.9051
+  R² layer mean - vw: 0.8828
+  R² layer mean - tw: 0.8978
+  R² layer mean - qw: 0.6823
+  Val Total Loss: 0.000979, Value Loss: 0.000979
+  Per-channel RMSE: uw=0.3345, vw=0.3740, tw=0.3433, 
+
+Epoch 159/200
+  Train Total Loss: 0.000291, Value Loss: 0.000291
+  R² layer mean - uw: 0.9058
+  R² layer mean - vw: 0.8848
+  R² layer mean - tw: 0.8987
+  R² layer mean - qw: 0.6865
+  Val Total Loss: 0.000969, Value Loss: 0.000969
+  Per-channel RMSE: uw=0.3332, vw=0.3708, tw=0.3418, 
+  Saved best model: F:\model\model_save\best_epoch159_val0.000969.pth
+
+Epoch 160/200
+  Train Total Loss: 0.000291, Value Loss: 0.000291
+  R² layer mean - uw: 0.9056
+  R² layer mean - vw: 0.8834
+  R² layer mean - tw: 0.8987
+  R² layer mean - qw: 0.6792
+  Val Total Loss: 0.000974, Value Loss: 0.000974
+  Per-channel RMSE: uw=0.3337, vw=0.3731, tw=0.3418, 
+
+Epoch 161/200
+  Train Total Loss: 0.000290, Value Loss: 0.000290
+  R² layer mean - uw: 0.9061
+  R² layer mean - vw: 0.8852
+  R² layer mean - tw: 0.8989
+  R² layer mean - qw: 0.6826
+  Val Total Loss: 0.000966, Value Loss: 0.000966
+  Per-channel RMSE: uw=0.3327, vw=0.3702, tw=0.3414, 
+  Saved best model: F:\model\model_save\best_epoch161_val0.000966.pth
+
+Epoch 162/200
+  Train Total Loss: 0.000288, Value Loss: 0.000288
+  R² layer mean - uw: 0.9060
+  R² layer mean - vw: 0.8843
+  R² layer mean - tw: 0.8984
+  R² layer mean - qw: 0.6864
+  Val Total Loss: 0.000969, Value Loss: 0.000969
+  Per-channel RMSE: uw=0.3330, vw=0.3717, tw=0.3423, 
+
+Epoch 163/200
+  Train Total Loss: 0.000286, Value Loss: 0.000286
+  R² layer mean - uw: 0.9054
+  R² layer mean - vw: 0.8854
+  R² layer mean - tw: 0.8996
+  R² layer mean - qw: 0.6836
+  Val Total Loss: 0.000964, Value Loss: 0.000964
+  Per-channel RMSE: uw=0.3341, vw=0.3698, tw=0.3403, 
+  Saved best model: F:\model\model_save\best_epoch163_val0.000964.pth
+
+Epoch 164/200
+  Train Total Loss: 0.000288, Value Loss: 0.000288
+  R² layer mean - uw: 0.9053
+  R² layer mean - vw: 0.8845
+  R² layer mean - tw: 0.8989
+  R² layer mean - qw: 0.6846
+  Val Total Loss: 0.000968, Value Loss: 0.000968
+  Per-channel RMSE: uw=0.3343, vw=0.3712, tw=0.3414, 
+
+Epoch 165/200
+  Train Total Loss: 0.000286, Value Loss: 0.000286
+  R² layer mean - uw: 0.9063
+  R² layer mean - vw: 0.8842
+  R² layer mean - tw: 0.8990
+  R² layer mean - qw: 0.6873
+  Val Total Loss: 0.000968, Value Loss: 0.000968
+  Per-channel RMSE: uw=0.3324, vw=0.3718, tw=0.3412, 
+
+Epoch 166/200
+  Train Total Loss: 0.000286, Value Loss: 0.000286
+  R² layer mean - uw: 0.9063
+  R² layer mean - vw: 0.8851
+  R² layer mean - tw: 0.8990
+  R² layer mean - qw: 0.6821
+  Val Total Loss: 0.000966, Value Loss: 0.000966
+  Per-channel RMSE: uw=0.3324, vw=0.3703, tw=0.3412, 
+
+Epoch 167/200
+  Train Total Loss: 0.000286, Value Loss: 0.000286
+  R² layer mean - uw: 0.9057
+  R² layer mean - vw: 0.8839
+  R² layer mean - tw: 0.8981
+  R² layer mean - qw: 0.6821
+  Val Total Loss: 0.000973, Value Loss: 0.000973
+  Per-channel RMSE: uw=0.3336, vw=0.3723, tw=0.3428, 
+
+Epoch 168/200
+  Train Total Loss: 0.000284, Value Loss: 0.000284
+  R² layer mean - uw: 0.9071
+  R² layer mean - vw: 0.8852
+  R² layer mean - tw: 0.8994
+  R² layer mean - qw: 0.6846
+  Val Total Loss: 0.000961, Value Loss: 0.000961
+  Per-channel RMSE: uw=0.3310, vw=0.3702, tw=0.3406, 
+  Saved best model: F:\model\model_save\best_epoch168_val0.000961.pth
+
+Epoch 169/200
+  Train Total Loss: 0.000285, Value Loss: 0.000285
+  R² layer mean - uw: 0.9060
+  R² layer mean - vw: 0.8848
+  R² layer mean - tw: 0.8996
+  R² layer mean - qw: 0.6821
+  Val Total Loss: 0.000964, Value Loss: 0.000964
+  Per-channel RMSE: uw=0.3331, vw=0.3708, tw=0.3402, 
+
+Epoch 170/200
+  Train Total Loss: 0.000286, Value Loss: 0.000286
+  R² layer mean - uw: 0.9058
+  R² layer mean - vw: 0.8842
+  R² layer mean - tw: 0.8993
+  R² layer mean - qw: 0.6865
+  Val Total Loss: 0.000969, Value Loss: 0.000969
+  Per-channel RMSE: uw=0.3335, vw=0.3719, tw=0.3407, 
+
+Epoch 171/200
+  Train Total Loss: 0.000284, Value Loss: 0.000284
+  R² layer mean - uw: 0.9065
+  R² layer mean - vw: 0.8849
+  R² layer mean - tw: 0.8983
+  R² layer mean - qw: 0.6867
+  Val Total Loss: 0.000966, Value Loss: 0.000966
+  Per-channel RMSE: uw=0.3322, vw=0.3707, tw=0.3423, 
+
+Epoch 172/200
+  Train Total Loss: 0.000284, Value Loss: 0.000284
+  R² layer mean - uw: 0.9058
+  R² layer mean - vw: 0.8840
+  R² layer mean - tw: 0.8983
+  R² layer mean - qw: 0.6869
+  Val Total Loss: 0.000970, Value Loss: 0.000970
+  Per-channel RMSE: uw=0.3334, vw=0.3722, tw=0.3425, 
+
+Epoch 173/200
+  Train Total Loss: 0.000282, Value Loss: 0.000282
+  R² layer mean - uw: 0.9063
+  R² layer mean - vw: 0.8848
+  R² layer mean - tw: 0.8995
+  R² layer mean - qw: 0.6853
+  Val Total Loss: 0.000965, Value Loss: 0.000965
+  Per-channel RMSE: uw=0.3325, vw=0.3710, tw=0.3404, 
+
+Epoch 174/200
+  Train Total Loss: 0.000283, Value Loss: 0.000283
+  R² layer mean - uw: 0.9060
+  R² layer mean - vw: 0.8848
+  R² layer mean - tw: 0.8983
+  R² layer mean - qw: 0.6829
+  Val Total Loss: 0.000966, Value Loss: 0.000966
+  Per-channel RMSE: uw=0.3330, vw=0.3708, tw=0.3424, 
+
+Epoch 175/200
+  Train Total Loss: 0.000277, Value Loss: 0.000277
+  R² layer mean - uw: 0.9067
+  R² layer mean - vw: 0.8853
+  R² layer mean - tw: 0.8995
+  R² layer mean - qw: 0.6825
+  Val Total Loss: 0.000961, Value Loss: 0.000961
+  Per-channel RMSE: uw=0.3318, vw=0.3700, tw=0.3404, 
+
+Epoch 176/200
+  Train Total Loss: 0.000276, Value Loss: 0.000276
+  R² layer mean - uw: 0.9050
+  R² layer mean - vw: 0.8847
+  R² layer mean - tw: 0.8972
+  R² layer mean - qw: 0.6874
+  Val Total Loss: 0.000969, Value Loss: 0.000969
+  Per-channel RMSE: uw=0.3349, vw=0.3710, tw=0.3442, 
+
+Epoch 177/200
+  Train Total Loss: 0.000276, Value Loss: 0.000276
+  R² layer mean - uw: 0.9068
+  R² layer mean - vw: 0.8853
+  R² layer mean - tw: 0.8996
+  R² layer mean - qw: 0.6862
+  Val Total Loss: 0.000960, Value Loss: 0.000960
+  Per-channel RMSE: uw=0.3316, vw=0.3700, tw=0.3402, 
+  Saved best model: F:\model\model_save\best_epoch177_val0.000960.pth
+
+Epoch 178/200
+  Train Total Loss: 0.000273, Value Loss: 0.000273
+  R² layer mean - uw: 0.9060
+  R² layer mean - vw: 0.8849
+  R² layer mean - tw: 0.8979
+  R² layer mean - qw: 0.6873
+  Val Total Loss: 0.000966, Value Loss: 0.000966
+  Per-channel RMSE: uw=0.3330, vw=0.3707, tw=0.3431, 
+
+Epoch 179/200
+  Train Total Loss: 0.000274, Value Loss: 0.000274
+  R² layer mean - uw: 0.9063
+  R² layer mean - vw: 0.8854
+  R² layer mean - tw: 0.8991
+  R² layer mean - qw: 0.6860
+  Val Total Loss: 0.000963, Value Loss: 0.000963
+  Per-channel RMSE: uw=0.3326, vw=0.3699, tw=0.3410, 
+
+Epoch 180/200
+  Train Total Loss: 0.000275, Value Loss: 0.000275
+  R² layer mean - uw: 0.9068
+  R² layer mean - vw: 0.8850
+  R² layer mean - tw: 0.8990
+  R² layer mean - qw: 0.6845
+  Val Total Loss: 0.000963, Value Loss: 0.000963
+  Per-channel RMSE: uw=0.3315, vw=0.3705, tw=0.3412, 
+
+Epoch 181/200
+  Train Total Loss: 0.000276, Value Loss: 0.000276
+  R² layer mean - uw: 0.9022
+  R² layer mean - vw: 0.8839
+  R² layer mean - tw: 0.8940
+  R² layer mean - qw: 0.6884
+  Val Total Loss: 0.000981, Value Loss: 0.000981
+  Per-channel RMSE: uw=0.3399, vw=0.3724, tw=0.3494, 
+
+Epoch 182/200
+  Train Total Loss: 0.000274, Value Loss: 0.000274
+  R² layer mean - uw: 0.9064
+  R² layer mean - vw: 0.8853
+  R² layer mean - tw: 0.8995
+  R² layer mean - qw: 0.6836
+  Val Total Loss: 0.000961, Value Loss: 0.000961
+  Per-channel RMSE: uw=0.3323, vw=0.3701, tw=0.3403, 
+
+Epoch 183/200
+  Train Total Loss: 0.000275, Value Loss: 0.000275
+  R² layer mean - uw: 0.9045
+  R² layer mean - vw: 0.8839
+  R² layer mean - tw: 0.8968
+  R² layer mean - qw: 0.6889
+  Val Total Loss: 0.000972, Value Loss: 0.000972
+  Per-channel RMSE: uw=0.3360, vw=0.3724, tw=0.3449, 
+
+Epoch 184/200
+  Train Total Loss: 0.000273, Value Loss: 0.000273
+  R² layer mean - uw: 0.9055
+  R² layer mean - vw: 0.8851
+  R² layer mean - tw: 0.8959
+  R² layer mean - qw: 0.6885
+  Val Total Loss: 0.000968, Value Loss: 0.000968
+  Per-channel RMSE: uw=0.3340, vw=0.3704, tw=0.3465, 
+
+Epoch 185/200
+  Train Total Loss: 0.000269, Value Loss: 0.000269
+  R² layer mean - uw: 0.9072
+  R² layer mean - vw: 0.8853
+  R² layer mean - tw: 0.8997
+  R² layer mean - qw: 0.6829
+  Val Total Loss: 0.000958, Value Loss: 0.000958
+  Per-channel RMSE: uw=0.3308, vw=0.3700, tw=0.3400, 
+  Saved best model: F:\model\model_save\best_epoch185_val0.000958.pth
+
+Epoch 186/200
+  Train Total Loss: 0.000270, Value Loss: 0.000270
+  R² layer mean - uw: 0.9066
+  R² layer mean - vw: 0.8856
+  R² layer mean - tw: 0.8992
+  R² layer mean - qw: 0.6848
+  Val Total Loss: 0.000960, Value Loss: 0.000960
+  Per-channel RMSE: uw=0.3319, vw=0.3696, tw=0.3408, 
+
+Epoch 187/200
+  Train Total Loss: 0.000269, Value Loss: 0.000269
+  R² layer mean - uw: 0.9064
+  R² layer mean - vw: 0.8851
+  R² layer mean - tw: 0.8998
+  R² layer mean - qw: 0.6821
+  Val Total Loss: 0.000963, Value Loss: 0.000963
+  Per-channel RMSE: uw=0.3324, vw=0.3704, tw=0.3399, 
+
+Epoch 188/200
+  Train Total Loss: 0.000268, Value Loss: 0.000268
+  R² layer mean - uw: 0.9054
+  R² layer mean - vw: 0.8852
+  R² layer mean - tw: 0.8989
+  R² layer mean - qw: 0.6864
+  Val Total Loss: 0.000963, Value Loss: 0.000963
+  Per-channel RMSE: uw=0.3341, vw=0.3701, tw=0.3414, 
+
+Epoch 189/200
+  Train Total Loss: 0.000270, Value Loss: 0.000270
+  R² layer mean - uw: 0.9067
+  R² layer mean - vw: 0.8847
+  R² layer mean - tw: 0.8985
+  R² layer mean - qw: 0.6832
+  Val Total Loss: 0.000965, Value Loss: 0.000965
+  Per-channel RMSE: uw=0.3318, vw=0.3710, tw=0.3421, 
+
+Epoch 190/200
+  Train Total Loss: 0.000267, Value Loss: 0.000267
+  R² layer mean - uw: 0.9037
+  R² layer mean - vw: 0.8850
+  R² layer mean - tw: 0.8986
+  R² layer mean - qw: 0.6879
+  Val Total Loss: 0.000966, Value Loss: 0.000966
+  Per-channel RMSE: uw=0.3372, vw=0.3706, tw=0.3418, 
+
+Epoch 191/200
+  Train Total Loss: 0.000268, Value Loss: 0.000268
+  R² layer mean - uw: 0.9068
+  R² layer mean - vw: 0.8851
+  R² layer mean - tw: 0.8996
+  R² layer mean - qw: 0.6834
+  Val Total Loss: 0.000962, Value Loss: 0.000962
+  Per-channel RMSE: uw=0.3317, vw=0.3703, tw=0.3402, 
+
+Epoch 192/200
+  Train Total Loss: 0.000267, Value Loss: 0.000267
+  R² layer mean - uw: 0.9070
+  R² layer mean - vw: 0.8859
+  R² layer mean - tw: 0.8992
+  R² layer mean - qw: 0.6832
+  Val Total Loss: 0.000959, Value Loss: 0.000959
+  Per-channel RMSE: uw=0.3312, vw=0.3690, tw=0.3409, 
+
+Epoch 193/200
+  Train Total Loss: 0.000266, Value Loss: 0.000266
+  R² layer mean - uw: 0.9072
+  R² layer mean - vw: 0.8854
+  R² layer mean - tw: 0.8998
+  R² layer mean - qw: 0.6860
+  Val Total Loss: 0.000958, Value Loss: 0.000958
+  Per-channel RMSE: uw=0.3309, vw=0.3698, tw=0.3399, 
+
+Epoch 194/200
+  Train Total Loss: 0.000266, Value Loss: 0.000266
+  R² layer mean - uw: 0.9067
+  R² layer mean - vw: 0.8854
+  R² layer mean - tw: 0.9001
+  R² layer mean - qw: 0.6831
+  Val Total Loss: 0.000957, Value Loss: 0.000957
+  Per-channel RMSE: uw=0.3318, vw=0.3698, tw=0.3394, 
+  Saved best model: F:\model\model_save\best_epoch194_val0.000957.pth
+
+Epoch 195/200
+  Train Total Loss: 0.000267, Value Loss: 0.000267
+  R² layer mean - uw: 0.9070
+  R² layer mean - vw: 0.8855
+  R² layer mean - tw: 0.8999
+  R² layer mean - qw: 0.6818
+  Val Total Loss: 0.000959, Value Loss: 0.000959
+  Per-channel RMSE: uw=0.3312, vw=0.3697, tw=0.3397, 
+
+Epoch 196/200
+  Train Total Loss: 0.000270, Value Loss: 0.000270
+  R² layer mean - uw: 0.9064
+  R² layer mean - vw: 0.8857
+  R² layer mean - tw: 0.8988
+  R² layer mean - qw: 0.6877
+  Val Total Loss: 0.000959, Value Loss: 0.000959
+  Per-channel RMSE: uw=0.3323, vw=0.3693, tw=0.3415, 
+
+Epoch 197/200
+  Train Total Loss: 0.000269, Value Loss: 0.000269
+  R² layer mean - uw: 0.9069
+  R² layer mean - vw: 0.8855
+  R² layer mean - tw: 0.8997
+  R² layer mean - qw: 0.6823
+  Val Total Loss: 0.000959, Value Loss: 0.000959
+  Per-channel RMSE: uw=0.3315, vw=0.3696, tw=0.3401, 
+
+Epoch 198/200
+  Train Total Loss: 0.000265, Value Loss: 0.000265
+  R² layer mean - uw: 0.9066
+  R² layer mean - vw: 0.8852
+  R² layer mean - tw: 0.8995
+  R² layer mean - qw: 0.6873
+  Val Total Loss: 0.000961, Value Loss: 0.000961
+  Per-channel RMSE: uw=0.3321, vw=0.3701, tw=0.3404, 
+
+Epoch 199/200
+  Train Total Loss: 0.000265, Value Loss: 0.000265
+  R² layer mean - uw: 0.9066
+  R² layer mean - vw: 0.8850
+  R² layer mean - tw: 0.8986
+  R² layer mean - qw: 0.6857
+  Val Total Loss: 0.000961, Value Loss: 0.000961
+  Per-channel RMSE: uw=0.3320, vw=0.3705, tw=0.3418, 
+
+Epoch 200/200
+  Train Total Loss: 0.000263, Value Loss: 0.000263
+  R² layer mean - uw: 0.9065
+  R² layer mean - vw: 0.8855
+  R² layer mean - tw: 0.8991
+  R² layer mean - qw: 0.6842
+  Val Total Loss: 0.000960, Value Loss: 0.000960
+  Per-channel RMSE: uw=0.3321, vw=0.3696, tw=0.3411, 
+
+===== Final Evaluation on Test Set =====
+
+Training complete. Final model saved to:
+  F:\model\model_save\unet1d_40km_0807-gather.pth
